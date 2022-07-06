@@ -47,7 +47,9 @@ form {
 
 nav {
   border: 1px solid black;
-  background-image: url("https://www.designhill.com/design-blog/wp-content/uploads/2017/08/colors-1024x650.jpg");
+  /* background-image: url("https://www.designhill.com/design-blog/wp-content/uploads/2017/08/colors-1024x650.jpg");
+  */
+  background-color: rgb(0, 56, 81);
   position: sticky;
   top: 0px;
   border-radius: 5px;
@@ -78,9 +80,10 @@ footer img {
 footer {
   border: 1px solid black;
   padding: 10px;
-  background-image: url("https://www.designhill.com/design-blog/wp-content/uploads/2017/08/colors-1024x650.jpg");
+  background-color: rgb(0, 56, 81);
   border-radius: 5px;
   margin-top: 20px;
+  color: white;
 }
 
 .ContactUs {
