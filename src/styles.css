@@ -1,0 +1,116 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App,
+.login .signin {
+  background-image: url("https://img.freepik.com/free-photo/pastel-colour-feather-abstract-background_66899-1263.jpg?w=740");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("https://img.freepik.com/free-photo/pastel-colour-feather-abstract-background_66899-1263.jpg?w=740");
+  }
+}
+
+input {
+  margin: 10px auto;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+form {
+  background-color: lightblue;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 0px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+nav {
+  border: 1px solid black;
+  background-image: url("https://www.designhill.com/design-blog/wp-content/uploads/2017/08/colors-1024x650.jpg");
+  position: sticky;
+  top: 0px;
+  border-radius: 5px;
+  padding: 0px;
+}
+li {
+  padding: 0px;
+  display: inline;
+  margin: 2px 3px;
+}
+
+ul {
+  padding: 0px;
+  text-align: left;
+}
+
+.logo {
+  padding: 10px;
+  text-shadow: 2px 2px 5px blueviolet;
+  font-family: cursive;
+}
+
+footer img {
+  height: 30px;
+  float: right;
+}
+
+footer {
+  border: 1px solid black;
+  padding: 10px;
+  background-image: url("https://www.designhill.com/design-blog/wp-content/uploads/2017/08/colors-1024x650.jpg");
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.ContactUs {
+  float: left;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+li:hover {
+  background-color: blue;
+}
+
+.homepic {
+  width: 100vw;
+}
+
+.movies {
+  display: inline-block;
+}
+
+.block {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 2px 2px;
+  background-color: black;
+  color: white;
+}
+
+video {
+  width: 100%;
+}
